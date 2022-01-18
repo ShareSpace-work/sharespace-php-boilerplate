@@ -1,0 +1,32 @@
+{
+  "type": "project",
+  "name": "sharespace/boilerplate",
+  "description": "basic app",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "config": {
+    "bin-dir": "bin",
+    "optimize-autoloader": true,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "ShareSpace\\": "src/ShareSpace"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ShareSpace\\": "tests/ShareSpace"
+    }
+  }
+}

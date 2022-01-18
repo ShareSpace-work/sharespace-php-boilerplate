@@ -1,0 +1,10 @@
+/.code/
+/.idea/
+/bin/
+/build/
+/vendor/
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
